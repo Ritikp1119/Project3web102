@@ -1,0 +1,140 @@
+/* Main App Container */
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #0045d0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  color: rgb(221, 137, 137);
+}
+
+/* Center wrapper for all content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FLASHCARD CONTAINER */
+.flashcard {
+  width: 300px;
+  height: 180px;
+  margin: 20px auto;
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative; /* stacking flashcards */
+}
+
+.flashcard > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  backface-visibility: hidden;
+  border-radius: 12px;
+  background: rgb(233, 231, 231);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.4rem;
+  font-weight: 600;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.6s ease;
+}
+
+
+.flashcard .front {
+  transform: rotateY(0deg);
+}
+
+/* BACK SIDE */
+.flashcard .back {
+  transform: rotateY(180deg);
+}
+
+/* FLIPPED STATE */
+.flashcard.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.flashcard.flipped .back {
+  transform: rotateY(360deg);
+}
+
+.flashcard:hover {
+  transform: scale(1.03);
+}
+
+/* Input section */
+.inputSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #234128;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ba283b;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #354edb;
+}
+
+button:disabled {
+  background-color: #ba8f5b;
+  cursor: not-allowed;
+}
+
+/* Feedback */
+.correct {
+  color: rgb(78, 255, 8);
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* Navigation buttons */
+.navButtons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

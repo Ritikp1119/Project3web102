@@ -1,0 +1,10 @@
+export const cards = [{ question: "Which Brand of gaming laptop is the best??", answer: "Asus" }, 
+    { question: "What is the total of budget gaming expenses?", answer: "$1500" },
+    { question: "Which brand is good for budget gaming GPU's?", answer: "Nvidia" },
+    { question: "Which memory card is affordable and best for Gaming PC?", answer: "Corsair Vengeance LPX" },
+    { question: "Best Gaming CPU for gaming under budget??", answer: "AMD Ryzen 5 5600X" },
+    { question: "What brand is good for PC component?", answer: "Corsair" },
+    { question: "The best headset for gaming?", answer: "HyperX Cloud II" },
+    { question: "The best budget desk with portals for gaming?", answer: "Arozzi Arena Gaming Desk" },
+    { question: "Best value for money Monitors for gaming and video editing?", answer: "LG 27GL83A-B" },
+    { question: "The best 2026 Gaming cooler and power supply for Custom PC's?", answer: "NZXT Kraken X63" },];

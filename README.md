@@ -1,20 +1,20 @@
-# Web Development Project 3 - *Name of App Here*
+# Web Development Project 3 - *PC Parts Study Set*
 
-Submitted by: **Your Name Here**
+Submitted by: **Ritik Parmar**
 
-This web app: **insert description**
+This web app: **This website helps people who want to learn about pc's which helps with theyre personal gaming journey and also teaches any user on how Pc's are built with there own custom**
 
-Time spent: **X** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The user can enter their guess into an input box *before* seeing the flipside of the card**
+- [X] **The user can enter their guess into an input box *before* seeing the flipside of the card**
   - Application features a clearly labeled input box with a submit button where users can type in a guess
   - Clicking on the submit button with an **incorrect** answer shows visual feedback that it is wrong 
   -  Clicking on the submit button with a **correct** answer shows visual feedback that it is correct
-- [ ] **The user can navigate through an ordered list of cardss**
+- [x] **The user can navigate through an ordered list of cardss**
   - A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
   - A previous/back button displayed on the card returns to the previous card in the set sequence when clicked
   - Both the next and back buttons should have some visual indication that the user is at the beginning or end of the list (for example, graying out and no longer being available to click), not allowing for wrap-around navigation
@@ -45,10 +45,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Ritikp1119/Project3web102/blob/main/Project3Video8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Licecap...  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -57,10 +57,10 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+I had difficulties with choosig the background color of the website and also with keeping all the codes and buttons in the center of the website. 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2026] [Ritik Parmar]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
